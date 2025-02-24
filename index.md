@@ -82,6 +82,7 @@ Lanqing Huang, **Boying Li**, Bin Liu, Weiwei Guo, Zenghui Zhang, Wenxian Yu <br
 - Chief Umpire [2018]: 2nd National Unmanned Aerial Vehicle Intelligent Sensing Technology Competition.
 
 ## Selected Honors
+- **National Outstanding Doctoral Dissertation** by China Education Society of Electronics (CESE, Nomination Award)
 - OUTSTANDING GRADUATE of Shanghai Jiao Tong University.
 - National Scholarship (2 times), Top 2%.
 - Second Prize of National Mathematical Modeling Contest.
