@@ -59,15 +59,15 @@ Lanqing Huang, Bin Liu, **Boying Li**, Weiwei Guo, Wenhao Yu, Zenghui Zhang, Wen
 Lanqing Huang, **Boying Li**, Bin Liu, Weiwei Guo, Zenghui Zhang, Wenxian Yu <br>
 *Advances in SAR Remote Sensing of Oceans. 2018* 
 
-## Academic Experience
+## Research Experience
 
 - Advanced Neuro Symbolic Learning and Reasoning &ensp; *2023* - *Now*
 - 3D Computer Vision &ensp; *2020* - *Now*
 - Intelligent Robotics &ensp; *2018* - *Now*
 - Synthetic Aperture Radar (SAR) Remote Sensing Image Interpretation &ensp; *2016* - *2018*
 
-## Reviewer Experiences
-
+## Academic Experience
+- **Associate Editors (AE)** for IROS 2025
 - The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
 - The European Conference on Computer Vision (ECCV)
 - Conference and Workshop on Neural Information Processing Systems (NeurIPS)
