@@ -1,9 +1,10 @@
 ## Biography
 
-Boying Li currently serves as a Research Fellow at Monash University in Melbourne, Australia, cooperate with Prof. [Hamid Rezatofighi](https://scholar.google.com/citations?hl=en&user=VxAuxMwAAAAJ). She obtained her Ph.D. degree from Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)) in 2023, Shanghai, China, under the supervision of Prof. [Wenxian Yu](https://www.researchgate.net/profile/Wenxian-Yu) and Prof. [Danping Zou](https://drone.sjtu.edu.cn/dpzou/).
-She was the **OUTSTANDING GRADUATE** of Shanghai Jiao Tong University.
+Boying Li currently serves as a Research Fellow at Monash University in Melbourne, Australia, cooperate with Prof. [Hamid Rezatofighi](https://scholar.google.com/citations?hl=en&user=VxAuxMwAAAAJ) and Prof. [Ian Reid](https://scholar.google.co.uk/citations?user=ATkNLcQAAAAJ&hl=en). She obtained her Ph.D. degree from Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)) in 2023, Shanghai, China, under the supervision of Prof. [Wenxian Yu](https://www.researchgate.net/profile/Wenxian-Yu) and Prof. [Danping Zou](https://drone.sjtu.edu.cn/dpzou/).
 Prior to that, She received the B.E. degree from Northwestern Polytechnical University, Xi'an, China in 2016.  
 Her research interests include 3D computer vision, robotics, Embodied AI, Generative AI, including SLAM (Simultaneous Localization And Mapping), 3D reconstruction.
+- **Outstanding Graduate** of Shanghai Jiao Tong University.
+- **National Outstanding Doctoral Dissertation** by China Education Society of Electronics (CESE, Nomination Award)
 
 **OPEN TO COLLABORATION** with undergraduate, graduate students, and researchers, reach out via email at [boying.li@monash.edu](boying.li@monash.edu).
 
