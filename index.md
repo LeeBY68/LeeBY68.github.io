@@ -19,6 +19,10 @@ Her research interests include 3D computer vision, robotics, Embodied AI, Genera
 
 ## Publications [[Google Scholar]](https://scholar.google.com.hk/citations?user=hYrcIe0AAAAJ&hl=zh-CN&oi=ao)
 
+- **Hier-SLAM++: Neuro-Symbolic Semantic SLAM with a Hierarchically Categorical Gaussian Splatting.** [[Paper]](https://arxiv.org/abs/2502.14931) <br>
+**Boying Li**, Vuong Chi Hao, Peter J. Stuckey, Ian Reid, and Hamid Rezatofighi <br>
+*Arxiv, 2025. Under review.*
+
 - **Hier-SLAM: Scaling-up Semantics in SLAM with a Hierarchically Categorical Gaussian Splatting.** [[Paper]](https://arxiv.org/abs/2409.12518) <br>
 **Boying Li**, Zhixi, Cai, Yuan-Fang Li, Ian Reid, and Hamid Rezatofighi <br>
 *IEEE International Conference on Robotics and Automation (ICRA). 2025*
@@ -67,7 +71,6 @@ Lanqing Huang, **Boying Li**, Bin Liu, Weiwei Guo, Zenghui Zhang, Wenxian Yu <br
 - Synthetic Aperture Radar (SAR) Remote Sensing Image Interpretation &ensp; *2016* - *2018*
 
 ## Academic Experience
-- **Associate Editors (AE)** for IROS 2025
 - The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
 - The European Conference on Computer Vision (ECCV)
 - Conference and Workshop on Neural Information Processing Systems (NeurIPS)
