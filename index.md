@@ -71,6 +71,7 @@ Lanqing Huang, **Boying Li**, Bin Liu, Weiwei Guo, Zenghui Zhang, Wenxian Yu <br
 - Synthetic Aperture Radar (SAR) Remote Sensing Image Interpretation &ensp; *2016* - *2018*
 
 ## Academic Experience
+- **Associate Editors (AE)** for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'25)
 - The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
 - The European Conference on Computer Vision (ECCV)
 - Conference and Workshop on Neural Information Processing Systems (NeurIPS)
