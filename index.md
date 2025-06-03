@@ -74,12 +74,16 @@ Lanqing Huang, **Boying Li**, Bin Liu, Weiwei Guo, Zenghui Zhang, Wenxian Yu <br
 
 ## Academic Experience
 - **Associate Editors (AE)** for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'25)
+- **Reviewer for:**
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+- IEEE Transactions on Robotics (TRO)
+- IEEE Robotics and Automation Letters (RA-L)
 - The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
 - The European Conference on Computer Vision (ECCV)
 - Conference and Workshop on Neural Information Processing Systems (NeurIPS)
 - IEEE International Conference on Robotics and Automation (ICRA)
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-- IEEE Robotics and Automation Letters (RA-L)
+- The International Conference on Learning Representations (ICLR)
 
 ## Teaching Assistant and Volunteer Experience
 
