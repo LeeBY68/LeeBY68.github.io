@@ -31,7 +31,7 @@ Her research interests include 3D computer vision, robotics, Embodied AI, Genera
 
 - **NEUSIS: A Compositional Neuro-Symbolic Framework for Autonomous Perception, Reasoning, and Planning in Complex UAV Search Missions** [[Paper]](https://arxiv.org/abs/2409.10196) <br>
 Zhixi Cai, Cristian Rojas Cardenas, Kevin Leo, Chenyuan Zhang, Kal Backman, Hanbing Li, **Boying Li**, Mahsa Ghorbanali, Stavya Datta, Lizhen Qu, Julian Gutierrez Santiago, Alexey Ignatiev, Yuan-Fang Li, Mor Vered, Peter J Stuckey, Maria Garcia de la Banda, Hamid Rezatofighi <br>
-*Arxiv, 2024*
+*IEEE Robotics and Automation Letters (RAL), 2025*
 
 - **TextSLAM: Visual SLAM with Semantic Planar Text Features.** [[Paper]](https://ieeexplore.ieee.org/abstract/document/10285400) [[Code]](https://github.com/SJTU-ViSYS/TextSLAM) [[Dataset]](https://github.com/SJTU-ViSYS/TextSLAM-Dataset/) [[Evaluation tool]](https://github.com/SJTU-ViSYS/SLAM_Evaluation/) <br>
 **Boying Li**, Danping Zou, Yuan Huang, Xinghan Niu, Ling Pei, Wenxian Yu <br>
