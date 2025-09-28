@@ -6,9 +6,11 @@ Her research interests include 3D computer vision, robotics, Embodied AI, Genera
 **OPEN TO COLLABORATION** with undergraduate, graduate students, and researchers, reach out via email at [boying.li@monash.edu](boying.li@monash.edu).
 
 **News:**
-- Associate Editors (AE) for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'25)
-- National Outstanding Doctoral Dissertation by China Education Society of Electronics (CESE, Nomination Award)
-- Outstanding Graduate of Shanghai Jiao Tong University.
+- Our paper accepted for NeurIPS'25 !
+- Our paper accepted for RAL !
+- Serving as Associate Editor (AE) for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'25) !
+- Our paper accepted for ICRA'25 !
+- National Outstanding Doctoral Dissertation by China Education Society of Electronics (CESE, Nomination Award) !
 
 
 **Contact:** 
@@ -20,6 +22,10 @@ Her research interests include 3D computer vision, robotics, Embodied AI, Genera
 
 
 ## Publications [[Google Scholar]](https://scholar.google.com.hk/citations?user=hYrcIe0AAAAJ&hl=zh-CN&oi=ao)
+
+- **PlanarGS: High‐Fidelity Indoor 3D Gaussian Splatting Guided by Vision–Language Planar Priors.** <br>
+Xirui Jin*, Renbiao Jin*, **Boying Li**, Danping Zou, Wenxian Yu <br>
+*The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.*
 
 - **Hier-SLAM++: Neuro-Symbolic Semantic SLAM with a Hierarchically Categorical Gaussian Splatting.** [[Paper]](https://arxiv.org/abs/2502.14931) [[Code]](https://github.com/LeeBY68/Hier-SLAM) <br>
 **Boying Li**, Vuong Chi Hao, Peter J. Stuckey, Ian Reid, and Hamid Rezatofighi <br>
