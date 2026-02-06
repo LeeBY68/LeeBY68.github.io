@@ -3,7 +3,7 @@
 Boying Li currently serves as a Research Fellow at Monash University in Melbourne, Australia, cooperate with Prof. [Hamid Rezatofighi](https://scholar.google.com/citations?hl=en&user=VxAuxMwAAAAJ) and Prof. [Ian Reid](https://scholar.google.co.uk/citations?user=ATkNLcQAAAAJ&hl=en). She obtained her Ph.D. degree from Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)) in 2023, Shanghai, China, under the supervision of Prof. [Wenxian Yu](https://www.researchgate.net/profile/Wenxian-Yu) and Prof. [Danping Zou](https://drone.sjtu.edu.cn/dpzou/).
 Her research interests include 3D computer vision, robotics, Embodied AI, Generative AI, including SLAM (Simultaneous Localization And Mapping), 3D reconstruction.
 
-**OPEN TO COLLABORATION** with undergraduate, graduate students, and researchers, reach out via email at [boying.li@monash.edu](boying.li@monash.edu).
+Open to collaboration with undergraduate and graduate students, and researchers. I am always looking for motivated Master’s and PhD candidates, please feel free to contact me via email at [boying.li@monash.edu](boying.li@monash.edu).
 
 **News:**
 - Our paper accepted for NeurIPS'25 !
