@@ -7,6 +7,7 @@ Open to collaboration with undergraduate and graduate students, and researchers.
 
 **News:**
 - Our paper accepted for ECCV'26 !
+- Serving as Associate Editor (AE) for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'26) !
 - Our paper accepted for CVPR'26 !
 - Our paper accepted for NeurIPS'25 !
 - Our paper accepted for RAL !
