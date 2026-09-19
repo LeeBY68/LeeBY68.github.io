@@ -1,0 +1,50 @@
+---
+version: 1
+overrides:
+  _layouts/about.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _layouts/about.liquid
+    upstream_sha256: 2c28eb83b71fe65f252202c11f0b4a19a9b6f1faccdc870b4f91c4ea51d0c6f1
+    local_sha256: ace99bb4c2f0d06d45a37bc5cbc8318ef9ef1118ec7fb94363eeac36a3e8cd0c
+    acknowledged_at: "2026-09-19"
+  _layouts/bib.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _layouts/bib.liquid
+    upstream_sha256: f3c547969ef76219ca1eb21df09dce5a3daf32a1f491b1586f68e3213fa35f53
+    local_sha256: 5800a413ef23053e5e32045706f7e2256b4f2599c61128432e664bf7d91c0b45
+    acknowledged_at: "2026-09-19"
+  _includes/header.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _includes/header.liquid
+    upstream_sha256: c8663513baded68d9fa5fbe4d6363a976535bbe201efe5138243d0ff03101058
+    local_sha256: dc4a910c0c9ea064d8f81490ea4d0d0e90f20d7e7770b51355140257c7dbd4c6
+    acknowledged_at: "2026-09-19"
+  _includes/news.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _includes/news.liquid
+    upstream_sha256: 2a37611539b5b3d59050cc20b8d008ca070e253d953724f6499a422e9b186f63
+    local_sha256: 2fa04f078e01c450e115f278a1c8ad520b537d4ed562582ec7380f9b625aac16
+    acknowledged_at: "2026-09-19"
+  _includes/footer.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _includes/footer.liquid
+    upstream_sha256: 65219faad5445eb4456649d77921acd07845875bbcad4fb8f33b12b3d52d96d2
+    local_sha256: b146704364883280f21d5f488c0bb42abccd2b17fd54bf0f09b7570ba2bcaf04
+    acknowledged_at: "2026-09-19"
+  assets/css/main.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: assets/css/main.scss
+    upstream_sha256: 437c6c911c596391413e435dc0ea7095e682e85c572c1fd3fff69f9597455b3e
+    local_sha256: 7b78cc30540257a5d1565228640ebaea8d1d1fd47d76e404d99456b3d6028028
+    acknowledged_at: "2026-09-19"
+
+# Local additions with no upstream counterpart, listed for reference only:
+#   _includes/gh_button.liquid
+#   _sass/_custom.scss
+#   _data/navigation.yml
