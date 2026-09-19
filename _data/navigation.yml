@@ -1,0 +1,10 @@
+# Navbar items. '#...' entries scroll to a section of the about page;
+# anything else is followed as an ordinary link.
+- title: About
+  url: "#top"
+- title: Latest news
+  url: "#news"
+- title: Selected publications
+  url: "#publications"
+- title: Experience
+  url: "#experience"

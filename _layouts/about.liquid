@@ -1,0 +1,106 @@
+---
+layout: default
+---
+<div class="post" id="top">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}{% if site.middle_name != "" %} {{ site.middle_name }}{% endif %} {{ site.last_name }}</span>
+        {% if site.name_cn %}<span class="name-cn">({{ site.name_cn }})</span>{% endif %}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2 id="news">Latest news</h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Publications (full bibliography, rendered on this page) -->
+    {% if page.publications_section %}
+      <h2 id="publications">Selected publications</h2>
+      <p class="author-note"><sup>*</sup> corresponding author</p>
+      <div class="publications">{% bibliography --group_by none %}</div>
+    {% endif %}
+
+    <!-- Academic service and honors, rendered from _data/cv.yml so this page
+         and the CV stay a single source of truth -->
+    {% if page.service_and_honors %}
+      {% assign sections = site.data.cv.cv.sections %}
+      <h2 id="experience">Experience</h2>
+      <div class="row service-honors">
+        <div class="col-md-6">
+          <h3>Academic service</h3>
+          <table class="table table-sm table-borderless">
+            {% for item in sections['Academic service'] %}
+              <tr><td class="sh-label">{{ item.label }}</td><td>{{ item.details }}</td></tr>
+            {% endfor %}
+          </table>
+        </div>
+        <div class="col-md-6">
+          <h3>Selected honors</h3>
+          <ul class="honors">
+            {% for a in sections['Awards'] %}
+              <li>{{ a.title }}{% if a.awarder %}, {{ a.awarder }}{% endif %}{% if a.summary %} &mdash; {{ a.summary }}{% endif %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  </article>
+</div>

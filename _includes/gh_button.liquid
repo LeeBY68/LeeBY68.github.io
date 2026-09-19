@@ -1,0 +1,12 @@
+{%- comment -%}
+  A link button whose GitHub star count is appended when it is worth showing.
+  Counts come from _data/github_stars.yml (baked by bin/fetch-github-stars.py),
+  so nothing is fetched at view time. A non-GitHub url simply gets no star.
+
+  Params: url, label
+{%- endcomment -%}
+{%- assign gh_p = include.url | remove: 'https://github.com/' | remove: 'http://github.com/' | split: '/' -%}
+{%- assign gh_name = gh_p[1] | split: '?' | first | split: '#' | first -%}
+{%- assign gh_key = gh_p[0] | append: '/' | append: gh_name -%}
+{%- assign gh_n = site.data.github_stars[gh_key] -%}
+<a href="{{ include.url }}" class="btn btn-sm z-depth-0" role="button">{{ include.label }}{% if gh_n and gh_n >= site.min_stars_shown %}<span class="gh-stars">&#9733; {{ gh_n }}</span>{% endif %}</a>

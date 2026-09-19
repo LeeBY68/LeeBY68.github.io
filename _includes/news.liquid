@@ -1,0 +1,30 @@
+{% comment %}
+  Local override of al_folio_core's news.liquid.
+
+  Upstream renders a two-column "year | text" table. This site follows the
+  author's original homepage instead: a plain bulleted list, one item per line,
+  with no dates shown. Dates still exist in _news/*.md -- they order the list.
+{% endcomment %}
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news = site.news | reverse %}
+    {% if include.limit and page.announcements.limit %}
+      {% assign news_limit = page.announcements.limit %}
+    {% else %}
+      {% assign news_limit = site.news | size %}
+    {% endif %}
+    <ul class="news-list">
+      {% for item in news limit: news_limit %}
+        <li>
+          {% if item.inline %}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {% else %}
+            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

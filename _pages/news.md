@@ -1,6 +1,7 @@
 ---
+published: false   # single-page site; content lives on the about page
 layout: page
-title: news
+title: News
 permalink: /news/
 ---
 

@@ -1,0 +1,203 @@
+/*******************************************************************************
+ * Local overrides for this site. Loaded last from assets/css/main.scss, so
+ * these rules win over the gem's compiled tailwind.css.
+ ******************************************************************************/
+
+/* ---- Body font -------------------------------------------------------------
+ * The gem hardcodes `font-family: Roboto, sans-serif` on body in its prebuilt
+ * tailwind.css. Override it here; the webfont itself is requested through
+ * third_party_libraries.google_fonts.url.fonts in _config.yml.
+ * A CJK family is appended so 李博颖 does not fall back to a mismatched
+ * system font.
+ * -------------------------------------------------------------------------- */
+
+$site-font: Lora !default;
+
+body {
+  font-family: $site-font, "Noto Serif SC", serif;
+  font-weight: 400; // Lora ships 400-700; the theme's default 300 would be faked
+}
+
+/* ---- Name in the about-page h1 -------------------------------------------- */
+
+.post-title .name-cn {
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+/* ---- Homepage blocks added on top of the stock about layout ---------------- */
+
+/* the four topics read as one inline run, wrapping to a second line if the
+   column is narrow; the markup stays a list */
+.interests {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.2rem 0 0.4rem;
+
+  li {
+    display: inline;
+    font-weight: 500;
+  }
+
+  li:not(:last-child)::after {
+    content: " | ";
+    font-weight: 400;
+    color: var(--global-divider-color);
+    padding: 0 0.15rem;
+  }
+
+  /* start a fresh line at this item instead of letting the run wrap wherever
+     it happens to fit; the items stay inline either side of the break */
+  li.break-before::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+.service-honors {
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
+
+  .sh-label {
+    white-space: nowrap;
+    padding-right: 1rem;
+    font-weight: 500;
+  }
+
+  table td {
+    border-top: 0;
+    padding: 0.2rem 0;
+    font-size: 0.95rem;
+  }
+
+  ul.honors {
+    padding-left: 1.1rem;
+    font-size: 0.95rem;
+
+    li { margin-bottom: 0.3rem; }
+  }
+}
+
+/* project cards: keep every thumbnail the same shape so the grid stays even */
+.projects .card-img-top {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.projects .card-title { font-size: 1.15rem; }
+.projects .card-text  { font-size: 0.9rem; }
+.projects h2.category { margin-top: 2rem; margin-bottom: 0.8rem; }
+
+/* news as a plain bulleted list, matching the author's original homepage */
+.news-list {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+
+  li {
+    margin-bottom: 0.35rem;
+    line-height: 1.5;
+  }
+}
+
+/* ---- '*' marks the corresponding author (not equal contribution) ---------- */
+
+.publications .author sup {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+
+/* the bib template wraps the site owner's own name in <em>; show it bold and
+   upright on every paper, not just the corresponding-author ones */
+.publications .author em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.author-note {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light, #777);
+  margin-top: 0.3rem;
+
+  sup { color: var(--global-theme-color); font-weight: 600; }
+}
+
+/* the theme sets .more-info in monospace; follow the site font instead */
+.profile .more-info {
+  font-family: inherit;
+  font-size: 0.95rem;
+  text-align: right; // line up with the right edge of the portrait
+}
+
+/* ---- Gray rules, in the manner of justimyhxu.github.io --------------------
+ * Two kinds:
+ *   1. a hairline between consecutive publication entries
+ *   2. a hairline above each top-level section heading
+ * Both use the theme's own divider token, so they follow light/dark mode.
+ * -------------------------------------------------------------------------- */
+
+.publications ol.bibliography > li {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:first-child { padding-top: 0.2rem; }
+  &:last-child  { border-bottom: 0; padding-bottom: 0.3rem; }
+}
+
+/* section rules on the about page. Only the headings that are direct children
+   of <article> get one -- "Research interests" sits beside the floated portrait,
+   where a full-width rule would run behind the photo. */
+.post > article > h2 {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* Year headings are switched off (--group_by none), so the list starts straight
+   after the corresponding-author note. The theme's 2rem top margin leaves a big
+   hole there; close it up. */
+.publications {
+  margin-top: 0.4rem;
+}
+
+.author-note {
+  margin-bottom: 0.2rem;
+}
+
+/* ---- single-page layout: anchored sections ------------------------------- */
+
+/* the navbar is fixed, so an anchored heading would land underneath it */
+:target,
+h2[id] {
+  scroll-margin-top: 5rem;
+}
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* project sub-headings are h3 on the about page rather than h2 */
+.projects h3.category {
+  margin-top: 1.6rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.15rem;
+  color: var(--global-text-color-light, inherit);
+}
+
+/* GitHub star count appended to a Code button */
+.gh-stars {
+  margin-left: 0.4rem;
+  font-size: 1em;            // match the button label rather than shrink beside it
+  font-weight: 500;
+  color: var(--global-theme-color);
+  white-space: nowrap;
+}
+
+/* publication thumbnails sit flat on the page background, no drop shadow */
+.publications .preview {
+  box-shadow: none !important;
+}

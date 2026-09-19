@@ -1,9 +1,10 @@
 ---
+published: false   # single-page site; content lives on the about page
 layout: default
 permalink: /blog/
-title: blog
-nav: true
-nav_order: 1
+title: Blog
+nav: false   # navbar is driven by _data/navigation.yml
+nav_order: 5
 pagination:
   enabled: true
   collection: posts
@@ -194,3 +195,5 @@ pagination:
 {% endif %}
 
 </div>
+
+{% if site.posts.size == 0 %}<p>No posts yet. Research notes and project walkthroughs will appear here.</p>{% endif %}
