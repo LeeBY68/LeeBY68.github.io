@@ -38,7 +38,20 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    {%- comment -%}
+      The social links sit inside the clearfix, after the page content, so they
+      land in the gap the portrait leaves beside Research interests rather than
+      clearing the float and dropping to the foot of the page.
+    {%- endcomment -%}
+    <div class="clearfix">
+      {{ content }}
+      {% if page.social %}
+        <div class="social">
+          <div class="contact-icons">{% social_links %}</div>
+          {% if site.contact_note %}<div class="contact-note">{{ site.contact_note }}</div>{% endif %}
+        </div>
+      {% endif %}
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -83,15 +96,6 @@ layout: default
             {% endfor %}
           </ul>
         </div>
-      </div>
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
 

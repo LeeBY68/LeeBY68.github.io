@@ -201,3 +201,24 @@ html { scroll-behavior: smooth; }
 .publications .preview {
   box-shadow: none !important;
 }
+
+/* Social links now sit in the gap beside the portrait rather than at the foot
+   of the page: left-aligned with the text column and scaled down to suit. */
+.clearfix .social {
+  text-align: left;
+  margin-top: 2.66rem; // lines the icon row up with the foot of the portrait
+
+  .contact-icons {
+    font-size: 2.7rem;
+    line-height: 1;
+
+    a {
+      margin-right: 0.7rem;
+    }
+  }
+
+  .contact-note {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+}
