@@ -23,7 +23,7 @@ latest_posts:
   limit: 3
 ---
 
-Boying Li is currently a Research Fellow at [Monash University](https://www.monash.edu/) in Melbourne, Australia, working with [Prof. Jianfei Cai](https://jianfei-cai.github.io/). Her research also involves close collaboration with [Prof. Ian Reid](https://scholar.google.co.uk/citations?user=ATkNLcQAAAAJ) and [Prof. Hamid Rezatofighi](https://scholar.google.com/citations?user=VxAuxMwAAAAJ). She obtained her Ph.D. degree from [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/) in 2023, Shanghai, China, under the supervision of Prof. Wenxian Yu and [Prof. Danping Zou](https://drone.sjtu.edu.cn/dpzou/).<!-- duplicated by the Research interests list below:
+Boying Li is currently a Research Fellow at [Monash University](https://www.monash.edu/) in Melbourne, Australia, working with [Prof. Jianfei Cai](https://jianfei-cai.github.io/). Her research also involves close collaboration with [Prof. Ian Reid](https://scholar.google.co.uk/citations?user=ATkNLcQAAAAJ) and [Prof. Hamid Rezatofighi](https://scholar.google.com/citations?user=VxAuxMwAAAAJ). She obtained her Ph.D. degree from [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/), under the supervision of Prof. Wenxian Yu and [Prof. Danping Zou](https://drone.sjtu.edu.cn/dpzou/).<!-- duplicated by the Research interests list below:
  Her research interests include 3D computer vision, robotics, Embodied AI, Generative AI, including SLAM (Simultaneous Localization And Mapping), 3D reconstruction.
 -->
 
